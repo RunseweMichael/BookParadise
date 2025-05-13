@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-shadow: 1px 2px 3px #000000;
+    font-family: 'Montserrat',  sans-serif, 'Helvetica Neue';
+    font-size: 16px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#main{
+    width: 100vw;
+    height: 100vh;
+    background-image:url(./jonathan-francisca-BpbkLACP64M-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    padding: 15px 20px 10px 30px;
+    flex-wrap: wrap;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+    color: orangered;
+}
+
+#navContainer{
+    display: flex;
+    gap: 20px;
+}
+
+.navLinks{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+#contactSection{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+#featured{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    color: white;
+}
+
+#underLine{
+    width: 100px;
+    border: 2px solid orangered;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+
+#form{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+input, #message{
+    width: 60%;
+    margin: 0 auto;
+    padding: 7px;
+    margin-bottom: 10px;
+    outline: none;
+    color: orangered;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#btn{
+    width:130px;
+    margin: 30px auto 0 auto;
+    padding: 6px 10px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: orangered;
+    color: white;
+}
+
+
+@media (max-width: 600px) {
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-shadow: 1px 2px 3px #000000;
+    font-family: 'Montserrat',  sans-serif, 'Helvetica Neue';
+    font-size: 16px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#main{
+    width: 100vw;
+    height: 100vh;
+    background-image:url(./jonathan-francisca-BpbkLACP64M-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    color: orangered;
+}
+
+#logo{
+    font-size: 14px;
+}
+
+#navContainer{
+    display: flex;
+    gap: 5px;
+}
+
+.navLinks{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+
+
+#contactSection{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+#featured{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    color: white;
+}
+
+#underLine{
+    width: 80px;
+    border: 2px solid orangered;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+
+#form{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+input, #message{
+    width: 80%;
+    margin: 0 auto;
+    padding: 7px;
+    margin-bottom: 10px;
+    outline: none;
+    color: orangered;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#btn{
+    width:130px;
+    margin: 30px auto 0 auto;
+    padding: 6px 10px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: orangered;
+    color: white;
+}
+}
+
+
+
+@media (min-width: 601px) and (max-width: 1050px) {
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-shadow: 1px 2px 3px #000000;
+    font-family: 'Montserrat',  sans-serif, 'Helvetica Neue';
+    font-size: 16px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#main{
+    width: 100vw;
+    height: 100vh;
+    background-image:url(./jonathan-francisca-BpbkLACP64M-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    color: orangered;
+}
+
+#logo{
+    font-size: 26px;
+}
+
+#navContainer{
+    display: flex;
+    gap: 10px;
+}
+
+.navLinks{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+
+
+#contactSection{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+#featured{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 36px;
+}
+
+#underLine{
+    width: 80px;
+    border: 2px solid orangered;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+
+#form{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+input, #message{
+    width: 80%;
+    margin: 0 auto;
+    padding: 7px;
+    margin-bottom: 10px;
+    outline: none;
+    color: orangered;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#btn{
+    width:150px;
+    margin: 30px auto 0 auto;
+    padding: 6px 10px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: orangered;
+    color: white;
+    font-size: 18px;
+}
+}

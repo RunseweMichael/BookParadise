@@ -1,0 +1,789 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-shadow: 1px 2px 3px #000000;
+    font-family: 'Montserrat',  sans-serif, 'Helvetica Neue';
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+#main{
+    width: 100vw;
+    height: 70vh;
+    background-image:url(./henry-be-lc7xcWebECc-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    padding: 15px 20px 10px 30px;
+    flex-wrap: wrap;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+    color: orangered;
+}
+
+#navContainer{
+    display: flex;
+    gap: 20px;
+}
+
+.navLinks{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+
+
+#aboutSection{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#featured{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    color: white;
+}
+
+#underLine{
+    width: 100px;
+    border: 2px solid orangered;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+#text{
+    margin-top: 50px;
+    width: 70%;
+    line-height: 1.5;
+}
+
+
+
+
+#footer{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+#footerDiv1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px 0 30px;
+    height: 80%;
+    width: 100%;
+    color: white;
+}
+
+#footerDiv1 h4,h3{
+    color: orangered;
+    margin-bottom: 5px;
+}
+
+.footerDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.socialLink{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+#footerDiv1 p{
+    font-size: 14px;
+}
+
+#copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    color: white;
+    font-size: 12px;
+}
+
+
+
+@media (max-width: 400px){
+   #main{
+        width: 100vw;
+        height: 80vh;
+        background-image:url(./henry-be-lc7xcWebECc-unsplash.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+        padding: 15px 10px;
+        flex-wrap: wrap;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        font-size: 14px;
+        font-weight: bolder;
+        color: orangered;
+    }
+
+    #navContainer{
+        display: flex;
+        gap: 10px;
+    }
+
+    .navLinks{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+
+
+
+    #aboutSection{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    #featured{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+        color: white;
+    }
+
+    #underLine{
+        width: 100px;
+        border: 2px solid orangered;
+        border-radius: 5px;
+        margin: 0 auto;
+    }
+
+    #text{
+        margin-top: 10px;
+        width: 80%;
+        height: 50%;
+        line-height: 1.2;
+        font-size: 14px;
+        text-align: center;
+    }
+
+
+
+
+    #footer{
+        height: 20vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+    }
+
+    #footerDiv1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+        height: 80%;
+        width: 100%;
+        color: white;
+    }
+
+    #footerDiv1 h4,h3{
+        color: orangered;
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+
+    .footerDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .socialLink{
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+    }
+
+    #footerDiv1 p{
+        font-size: 10px;
+    }
+
+    #copyright{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20%;
+        color: white;
+        font-size: 10px;
+    } 
+}
+
+
+
+@media (min-width: 401px) and (max-width: 500px){
+   #main{
+        width: 100vw;
+        height: 80vh;
+        background-image:url(./henry-be-lc7xcWebECc-unsplash.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+        padding: 15px 10px;
+        flex-wrap: wrap;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        font-size: 14px;
+        font-weight: bolder;
+        color: orangered;
+    }
+
+    #navContainer{
+        display: flex;
+        gap: 10px;
+    }
+
+    .navLinks{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+    }
+
+
+
+    #aboutSection{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    #featured{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+        color: white;
+    }
+
+    #underLine{
+        width: 100px;
+        border: 2px solid orangered;
+        border-radius: 5px;
+        margin: 0 auto;
+    }
+
+    #text{
+        margin-top: 10px;
+        width: 80%;
+        height: 50%;
+        line-height: 1.5;
+        font-size: 16px;
+        text-align: center;
+    }
+
+
+
+
+    #footer{
+        height: 20vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+    }
+
+    #footerDiv1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+        height: 80%;
+        width: 100%;
+        color: white;
+    }
+
+    #footerDiv1 h4,h3{
+        color: orangered;
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+
+    .footerDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .socialLink{
+        text-decoration: none;
+        color: white;
+        font-size: 11px;
+    }
+
+    #footerDiv1 p{
+        font-size: 11px;
+    }
+
+    #copyright{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20%;
+        color: white;
+        font-size: 12px;
+    } 
+}
+
+
+
+@media (min-width: 701px) and (max-width: 900px){
+   #main{
+        width: 100vw;
+        height: 80vh;
+        background-image:url(./henry-be-lc7xcWebECc-unsplash.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+        padding: 15px 30px;
+        flex-wrap: wrap;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        font-size: 16px;
+        font-weight: bolder;
+        color: orangered;
+    }
+
+    #navContainer{
+        display: flex;
+        gap: 15px;
+    }
+
+    .navLinks{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+    }
+
+    #logo{
+        font-size: 20px;
+    }
+
+
+
+    #aboutSection{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    #featured{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+        color: white;
+        font-size: 30px;
+    }
+
+    #underLine{
+        width: 100px;
+        border: 2px solid orangered;
+        border-radius: 5px;
+        margin: 0 auto;
+    }
+
+    #text{
+        margin-top: 20px;
+        width: 80%;
+        height: 50%;
+        line-height: 1.5;
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+
+
+    #footer{
+        height: 20vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+    }
+
+    #footerDiv1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 30px;
+        height: 80%;
+        width: 100%;
+        color: white;
+    }
+
+    #footerDiv1 h4,h3{
+        color: orangered;
+        margin-bottom: 5px;
+        font-size:20px;
+    }
+
+    .footerDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .socialLink{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+    }
+
+    #footerDiv1 p{
+        font-size: 16px;
+    }
+
+    #copyright{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20%;
+        color: white;
+        font-size: 14px;
+    } 
+}
+
+
+
+@media (min-width: 901px) and (max-width: 949px){
+   #main{
+        width: 100vw;
+        height: 80vh;
+        background-image:url(./henry-be-lc7xcWebECc-unsplash.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+        padding: 15px 30px;
+        flex-wrap: wrap;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        font-size: 16px;
+        font-weight: bolder;
+        color: orangered;
+    }
+
+    #navContainer{
+        display: flex;
+        gap: 15px;
+    }
+
+    .navLinks{
+        text-decoration: none;
+        color: white;
+        font-size: 26px;
+    }
+
+    #logo{
+        font-size: 30px;
+    }
+
+
+
+    #aboutSection{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    #featured{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+        color: white;
+        font-size: 40px;
+    }
+
+    #underLine{
+        width: 100px;
+        border: 2px solid orangered;
+        border-radius: 5px;
+        margin: 0 auto;
+    }
+
+    #text{
+        margin-top: 20px;
+        width: 80%;
+        height: 60%;
+        line-height: 1.3;
+        font-size: 30px;
+        text-align: center;
+    }
+
+
+
+
+    #footer{
+        height: 20vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+    }
+
+    #footerDiv1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 30px;
+        height: 80%;
+        width: 100%;
+        color: white;
+    }
+
+    #footerDiv1 h4,h3{
+        color: orangered;
+        margin-bottom: 5px;
+        font-size:26px;
+    }
+
+    .footerDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .socialLink{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+    }
+
+    #footerDiv1 p{
+        font-size: 18px;
+    }
+
+    #copyright{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20%;
+        color: white;
+        font-size: 16px;
+    } 
+}
+
+
+@media (min-width: 951px) and (max-width: 1050px){
+   #main{
+        width: 100vw;
+        height: 80vh;
+        background-image:url(./henry-be-lc7xcWebECc-unsplash.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+        padding: 15px 30px;
+        flex-wrap: wrap;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        font-size: 16px;
+        font-weight: bolder;
+        color: orangered;
+    }
+
+    #navContainer{
+        display: flex;
+        gap: 15px;
+    }
+
+    .navLinks{
+        text-decoration: none;
+        color: white;
+        font-size: 24px;
+    }
+
+    #logo{
+        font-size: 30px;
+    }
+
+
+
+    #aboutSection{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    #featured{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+        color: white;
+        font-size: 40px;
+    }
+
+    #underLine{
+        width: 100px;
+        border: 2px solid orangered;
+        border-radius: 5px;
+        margin: 0 auto;
+    }
+
+    #text{
+        margin-top: 20px;
+        width: 80%;
+        height: 70%;
+        line-height: 1.2;
+        font-size: 36px;
+        text-align: center;
+    }
+
+
+
+
+    #footer{
+        height: 20vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+    }
+
+    #footerDiv1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 30px;
+        height: 80%;
+        width: 100%;
+        color: white;
+    }
+
+    #footerDiv1 h4,h3{
+        color: orangered;
+        margin-bottom: 5px;
+        font-size:30px;
+    }
+
+    .footerDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .socialLink{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+
+    #footerDiv1 p{
+        font-size: 20px;
+    }
+
+    #copyright{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20%;
+        color: white;
+        font-size: 18px;
+    } 
+}
+
+
+
