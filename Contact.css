@@ -87,6 +87,8 @@ input, #message{
     color: orangered;
     font-size: 14px;
     font-weight: bold;
+    background-color: white;
+    border: 1px solid orangered;
 }
 
 #btn{
