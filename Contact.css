@@ -87,8 +87,12 @@ input, #message{
     color: orangered;
     font-size: 14px;
     font-weight: bold;
-    background-color: white;
-    border: 1px solid orangered;
+    background-color: orangered;
+    border: 1px solid white;
+}
+
+::placeholder{
+    color: white;
 }
 
 #btn{
